@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanview",
+  "version": "1.0",
+  "name": "Clean View",
+  "description": "Don't render your own particles!",
+  "authors": [
+    "Tryfle"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "me.tryfle.cleanview.Main"
+      }
+    ]
+  },
+  "mixins": [
+    "cv.mixins.json"
+  ],
+  "depends": {
+    "fabric-language-kotlin": ">=1.10.17+kotlin.1.9.22",
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  }
+}
